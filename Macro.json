@@ -1,0 +1,69 @@
+{
+  "Name": "Antenne Bot",
+  "CreationDate": "2023-7-13",
+  "Commands": [
+    {
+      "Command": "click",
+      "Target": "id=voteAgainButton",
+      "Value": "",
+      "Targets": [
+        "id=voteAgainButton",
+        "xpath=//*[@id=\"voteAgainButton\"]",
+        "xpath=//button[@id='voteAgainButton']",
+        "xpath=//div[2]/button",
+        "css=#voteAgainButton"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "100",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"embed_64afeef9a1b37\"]/div/div/div/div/div/div/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"embed_64afeef9a1b37\"]/div/div/div/div/div/div/button",
+        "xpath=//button[@type='button']",
+        "xpath=//div/div/div/div/div/button",
+        "css=#embed_64afeef9a1b37 > div > div > div.l-grid__cell.l-grid__cell--medium-auto > div > div > div > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "id=votingButton",
+      "Value": "",
+      "Targets": [
+        "id=votingButton",
+        "xpath=//*[@id=\"votingButton\"]",
+        "xpath=//button[@id='votingButton']",
+        "xpath=//div[2]/button",
+        "css=#votingButton"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=votingButton",
+      "Value": "",
+      "Targets": [
+        "id=votingButton",
+        "xpath=//*[@id=\"votingButton\"]",
+        "xpath=//button[@id='votingButton']",
+        "xpath=//div[2]/button",
+        "css=#votingButton"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "60000",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
