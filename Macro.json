@@ -17,7 +17,7 @@
     },
     {
       "Command": "pause",
-      "Target": "100",
+      "Target": "1000",
       "Value": "",
       "Description": ""
     },
@@ -44,6 +44,12 @@
         "xpath=//div[2]/button",
         "css=#votingButton"
       ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
       "Description": ""
     },
     {
