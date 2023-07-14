@@ -7,28 +7,29 @@ votes = 10000
 i = 0;
 
 # Screen Coords
-x_1 = 1260 # Jetzt abstimmen
-y_1 = 574
+x_1 = 316 # Jetzt abstimmen
+y_1 = 328
 
-x_2 = 1125  # Zustimmung, um Inhalte von Friendly Captcha anzuzeigen
-y_2 = 698
+x_2 = 259  # Zustimmung, um Inhalte von Friendly Captcha anzuzeigen
+y_2 = 382
 
-x_3 = 1136  # Anti-Roboter-Verifizierung
-y_3 = 546
+x_3 = 259  # Anti-Roboter-Verifizierung
+y_3 = 313
 
-x_4 = 1253  # Stimme abgeben
-y_4 = 539
+x_4 = 307  # Stimme abgeben
+y_4 = 308
 
-x_5 = 169   # Tor Menü
-y_5 = 80
+x_5 = 135   # Tor Menü
+y_5 = 98
 
-x_6 = 273   # Neuer Kanal für diese Seite
-y_6 = 422
+x_6 = 212   # Neuer Kanal für diese Seite
+y_6 = 384
 
-x_7 = 1128  # Lesezeichen aufrufen
-y_7 = 127
+x_7 = 40  # Lesezeichen aufrufen
+y_7 = 130
 
-for x in range(0, votes):
+while True:
+#for x in range(0, votes):
     i += 1
     pyautogui.click(x_1, y_1)
     time.sleep(1.5)
